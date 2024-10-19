@@ -1,2 +1,3 @@
 #!/bin/bash
-count=$(find . -type d -not -name "." -not -name ".." | wc-l)
+count=$(find . -type d -not -name '.' -not -name '..' | wc -l)
+
